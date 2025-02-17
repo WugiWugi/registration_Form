@@ -1,0 +1,123 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* bacground */
+
+.bacground{
+height: 100vh;
+width: 100vw;
+background-color: rgb(33,72,192);
+position: absolute;
+z-index: -1;
+}
+
+.bacground.bacground_shapes_right{
+position: absolute;
+top: 49%;
+width: 35%;
+height: 51%;
+z-index: 1;
+}
+
+.bacground.bacground_shapes_left{
+position: absolute;
+left: 55%;
+width: 45%;
+height: 80%;
+}
+
+.form__hat_shape_themе{
+display: flex;
+justify-content: center;
+align-items: flex-end;
+height: 180px;
+width: 100%;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 26px;
+font-weight: 500;
+color: aliceblue;
+
+}
+
+/* bacground */
+
+/* registration_form */
+
+.registration_elements{
+margin-top: 80px;
+display: flex;
+justify-content: center;
+width: 100%;
+}
+
+.registration_elements__registration_form{
+background-color: rgb(255, 255, 255);
+height: 550px;
+width: 800px;
+border-radius: 8px;
+display: flex;
+flex-direction: column;
+padding: 0px 50px 0px 50px;
+}
+
+.registration_form__registration_form_header{
+align-self: center;
+margin-top: 60px;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+color: #666666;
+}
+
+label{
+display: block;
+margin-top: 40px;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+color: #666666;
+}
+
+input{
+position: relative;
+display: block;
+margin-top: 20px;
+padding: 0px 60px 0px 10px;
+height: 50px;
+width: 730px;
+font-size: 20px;
+background-color: #F5F5F5;
+border: #ffffff;
+border-radius: 10px;
+}
+
+.icon{
+position: absolute;
+top: 575px;
+right:  580px;
+}
+
+a{
+display: block;
+color: #666666;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 20px;
+text-align: right;
+text-decoration: none;
+}
+
+.registration_form__sing_in{
+margin-top: 40px;
+height: 70px;
+width: 100%;
+background-color: rgb(33,72,192);
+color: #ffffff;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+border-radius: 10px;
+border-color: rgb(33,72,192);
+
+}
+
+/* registration_form */
